@@ -1,0 +1,21 @@
+<div style="border: 2px solid #b19cd9; border-radius: 15px; padding: 15px; width: 95%; margin-top: 1px; margin-bottom: 1px; margin-left: 20px; text-align: left; font-size: 1em; line-height: 1.5; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <label for="codeInput" style="display: block; margin-bottom: 5px;">Enter your code:</label>
+    <textarea id="codeInput" rows="10" style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: monospace;"></textarea>
+    <div style="margin-top: 10px;">
+        <button onclick="copyCode()" style="padding: 10px 15px; margin-right: 10px; background-color: #7253ec; color: white; border: none; border-radius: 5px; cursor: pointer;">Copy</button>
+        <button onclick="clearCode()" style="padding: 10px 15px; background-color: #fafafa; color: black; border: none; border-radius: 5px; cursor: pointer;">Clear</button>
+    </div>
+</div>
+
+<script>
+    function copyCode() {
+        var codeInput = document.getElementById("codeInput");
+        codeInput.select();
+        document.execCommand("copy");
+        alert("Code copied to clipboard!");
+    }
+
+    function clearCode() {
+        document.getElementById("codeInput").value = "";
+    }
+</script>
