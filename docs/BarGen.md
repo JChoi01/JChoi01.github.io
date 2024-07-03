@@ -44,7 +44,7 @@ nav_order: 7
 <body onload="generateBarcode()">
     <div class="barcode-container">
         <h1>바코드 형성기(CODE 39)</h1>
-        <p>xxxx-xx-xx-xxxx에서 하이픈 제거하고 입력하세요.</p>
+        <p>xxxx-xx-xx-xx-xxxx에서 하이픈 제거하고 입력하세요.</p>
         <input type="text" id="barcodeInput" class="barcode-input" placeholder="Enter text to generate barcode" value="text or number" oninput="generateBarcode()">
         <br>
         <label for="widthRange" class="barcode-label">가로 길이 조절(Barcode Width):</label>
