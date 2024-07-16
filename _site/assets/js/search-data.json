@@ -36,7 +36,7 @@
   },"5": {
     "doc": "Barcode Generator",
     "title": "바코드 형성기(CODE 39)",
-    "content": "xxxx-xx-xx-xxxx에서 하이픈 제거하고 입력하세요. 가로 길이 조절(Barcode Width): 2 세로 길이 조절(Barcode Height): 100 . ",
+    "content": "xxxx-xx-xx-xx-xxxx에서 하이픈 제거하고 입력하세요. 가로 길이 조절(Barcode Width): 2 세로 길이 조절(Barcode Height): 100 . ",
     "url": "/docs/BarGen/",
     
     "relUrl": "/docs/BarGen/"
